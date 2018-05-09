@@ -1,0 +1,497 @@
+
+body {
+    background: LightGray;
+    overflow-x: hidden;
+}
+
+/*div:hover {
+    box-shadow: 0 5px 15px black;
+    box-shadow:inset;
+}*/
+
+.Red 
+{
+    color:Firebrick;
+    text-align:center;
+}
+.Reds
+{
+    color:Firebrick;
+}
+
+.Punkt 
+{
+    width:100%;
+    border-bottom:1px LightSlateGray solid;
+    margin:auto;
+}
+.Small
+{
+    margin-top:15px;
+    font-size:10px;
+}
+.Big
+{
+    font-size:15px;
+    margin-bottom:15px;
+    font-weight: bold;
+}
+
+.ButtonImage
+{
+    width:100%;
+}
+
+.Left
+{
+   left:0%;
+}
+.Right
+{
+   right:0%;
+}
+
+
+.Symbol 
+{
+font-size:30px;
+}
+
+
+
+@media only screen and (min-width: 300px) {
+ 
+/*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
+ 
+
+
+    .Punkt1 
+    {
+        position:absolute;
+        left:-30%;
+    }
+    .Punkt2
+    {
+        position:absolute;
+        left:0%;
+    }
+
+    .Punkt3 
+    {
+        position:absolute;
+        left:30%;
+    }
+
+
+    .Tabl 
+    {
+        position:relative;
+        top:450px;
+        margin-left:auto;
+        margin-right:auto;
+        height:400px;
+    }
+    
+
+.CenterImage 
+{
+    margin:auto;
+    top:85px;
+    left: 35%;
+    width:110px;
+    position:absolute;
+}
+.LeftImage 
+{
+    width:200px;
+    display:none;
+}
+
+.TopImage
+{
+    width:1500px;
+    top:0%;
+    LEFT:0%;
+    position:absolute;
+   
+}
+
+.LeftMenu 
+{
+    position:absolute;
+    left:0px;
+    top:50px;
+    width:100%;
+
+
+}
+
+    .TitleDown 
+    {
+        top:300px;
+        position:relative;
+    }
+
+.Title 
+{
+    top:230px;
+     text-align:center;
+     font-size:35px;
+     margin-bottom:0px;
+     position:absolute;
+
+     /*font-weight: bold;*/
+}
+
+.MenuImage 
+{
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     width:300px;
+     left: 50%;
+     margin: -150px 0 0 -150px;
+     position:relative;
+}
+
+.Center 
+{
+    text-align:center;
+    top:300px;
+    position:relative;
+}
+
+.CenterMenu 
+{
+    width:100%;
+    position:relative;
+    left:0%;
+    /*margin-left:25%;
+    margin-right:25%;*/
+    /*margin: -125px 0 0 -125px;*/
+}
+
+.TopLine
+{
+    width:100px;
+    border-bottom:1px LightSlateGray solid;
+    position:absolute;
+} 
+
+.Text 
+{
+    position:relative;
+    top:-20px;
+    font-size:20px;
+
+}
+    .Texts 
+    {
+         position:relative;
+         top:300px;
+    }
+}
+ 
+@media only screen and (min-width: 768px) {
+ 
+    
+.Tabl
+{
+    width:30%;
+    height:500px;
+    position:absolute;
+    top:0px;
+}
+.X2 
+{
+    left:33%;
+}
+.X3
+{
+    left:66%;
+}
+    .Y1 
+    {
+       top:200px;
+    }
+.Y2 
+{
+    top:600px;
+}
+
+    .Punkt1 
+    {
+        position:absolute;
+         left:-33%;
+    }
+    .Punkt2
+    {
+        position:absolute;
+        left:0%;
+    }
+
+    .Punkt3 
+    {
+        position:absolute;
+        left:33%;
+    }
+    .TitleDown 
+    {
+        top:0px;
+        position:relative;
+    }
+
+
+.CenterImage 
+{
+    margin:auto;
+    top:85px;
+    left: 40%;
+    width:250px;
+    position:absolute;
+}
+
+.LeftImage 
+{
+    width:200px;
+    display:none;
+}
+
+.TopImage
+{
+    width:100%;
+    top:0%;
+    LEFT:0%;
+    position:absolute;
+   
+}
+
+.LeftMenu 
+{
+    position:absolute;
+    left:0px;
+    top:50px;
+    width:100%;
+    margin:auto;
+
+}
+
+
+
+.AllCenter 
+{
+    left:00px;
+    top:250px;
+    position:absolute;
+    width:100%;
+}
+
+.CenterMenu 
+{
+    width:96%;
+    position:relative;
+    left:3%;
+    /*margin-left:25%;
+    margin-right:25%;*/
+    /*margin: -125px 0 0 -125px;*/
+}
+.Title 
+{
+      top:0px;
+     text-align:center;
+     font-size:35px;
+     margin-bottom:0px;
+       position:relative;
+     /*font-weight: bold;*/
+}
+
+.MenuImage 
+{
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     width:300px;
+     left: 0%;
+     margin: 0 0 0 0;
+     position:relative;
+}
+
+.Center 
+{
+    text-align:center;
+    top:800px;
+    position:relative;
+}
+
+.TopLine
+{
+    width:400px;
+    border-bottom:1px LightSlateGray solid;
+    position:absolute;
+} 
+
+.Text 
+{
+    position:relative;
+    top:-20px;
+    font-size:20px;
+
+}
+    .Texts 
+    {
+         position:relative;
+         top:0px;
+    }
+ 
+}
+ 
+@media only screen and (min-width: 992px) {
+ 
+/*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
+ 
+}
+ 
+@media only screen and (min-width: 1382px) {
+/*Десктоп с большими разрешениями, телевизоры.*/
+
+    .Punkt1 
+    {
+        position:relative;
+         left:0%;
+    }
+    .Punkt2
+    {
+        position:relative;
+        left:0%;
+    }
+
+    .Punkt3 
+    {
+        position:relative;
+        left:0%;
+    }
+.Tabl
+{
+    width:30%;
+    height:500px;
+    position:absolute;
+        top:0px;
+}
+.X2 
+{
+    left:33%;
+}
+.X3
+{
+    left:66%;
+}
+    .Y1 
+    {
+       top:200px;
+    }
+.Y2 
+{
+    top:600px;
+}
+
+
+.CenterImage 
+{
+    margin:auto;
+    top:85px;
+    left: 40px;
+    width:110px;
+    position:absolute;
+}
+.LeftImage 
+{
+    width:200px;
+     display:block;
+}
+
+.TopImage
+{
+    width:100%;
+    top:0%;
+    LEFT:0%;
+    position:absolute;
+}
+
+.LeftMenu 
+{
+    position:absolute;
+    left:100px;
+    top:50px;
+    width:200px;
+}
+
+
+
+.AllCenter 
+{
+    left:100px;
+    top:120px;
+    position:absolute;
+    width:100%;
+}
+
+.CenterMenu 
+{
+    width:1000px;
+    position:relative;
+    left:20%;
+    /*margin-left:25%;
+    margin-right:25%;*/
+    /*margin: -125px 0 0 -125px;*/
+}
+.Title 
+{
+    top:0px;
+     text-align:center;
+     font-size:35px;
+     margin-bottom:0px;
+     position:relative;
+     /*font-weight: bold;*/
+}
+
+.MenuImage 
+{
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+     width:300px;
+     left: 0%;
+     margin: 0 0 0 0;
+     position:relative;
+}
+
+.Center 
+{
+    text-align:center;
+    top:800px;
+    position:relative;
+}
+
+.TopLine
+{
+    width:400px;
+    border-bottom:1px LightSlateGray solid;
+    position:absolute;
+} 
+
+.Text 
+{
+    position:relative;
+    top:-20px;
+    font-size:20px;
+
+}
+    .Texts 
+    {
+         position:relative;
+         top:0px;
+    }
+
+        .TitleDown 
+    {
+        top:0px;
+        position:relative;
+    }
+}
